@@ -1,0 +1,641 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+font-family: "FontAwesome";
+src: url('../fonts/fontawesome-webfont.eot');
+src: url('../fonts/fontawesome-webfont.eot?#iefix') format('eot'),
+url('../fonts/fontawesome-webfont.woff') format('woff'),
+url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+url('../fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+font-weight: normal;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: MONTSERRAT-BOLD;
+	src: url(../fuentes/MONTSERRAT-BOLD.ttf);
+}
+@font-face {
+	font-family: MONTSERRAT-REGULAR;
+	src: url(../fuentes/MONTSERRAT-REGULAR.ttf);
+}
+@font-face {
+	font-family: PTF55F;
+	src: url(../fuentes/PTF55F.ttf);
+}
+@font-face {
+	font-family: PTF56F;
+	src: url(../fuentes/PTF56F.ttf);
+}
+@font-face {
+	font-family: PTF57F;
+	src: url(../fuentes/PTF75F.ttf);
+}
+@font-face {
+	font-family: PTF76F;
+	src: url(../fuentes/PTF76F.ttf);
+}
+
+/* INICIO MENU */
+.navbar{
+	margin: 0;
+	border-radius: 0%;
+	border-color: black;
+}
+.container_nav, .navbar-default{
+	background-color: rgb(28, 30, 32);
+}
+.container_nav{
+	margin: 0;
+}
+
+.container_nav{
+	width: 1220px;
+}
+.logo-share{
+	img{
+		width: 275px;
+		margin-left: 20%;
+	}
+}
+.lista-header{
+	float: left;
+	margin: 2% 60px;
+	width: 60%;
+	li{
+		float: left;
+		list-style: none;
+		text-decoration: none;
+	}
+}
+
+li{
+	a{  
+		font-size: 19px;
+		font-family: "MONTSERRAT-BOLD";
+	}
+}
+.redes-sociales{
+	width: 20%;
+  margin: 0;
+  float: right;
+  margin: -77px 75px 0;
+  padding: 0% 2%;
+  border-left-style: groove;
+  border-width: thin;
+}
+.iconos-sociales{
+	float: right;
+	li{
+		float: left;
+		list-style: none;
+	}
+}
+
+.iconos-sociales li a .icono_social{
+	color: white;
+    border: 1px solid;
+	    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 32px;
+    text-align: center;
+   
+}
+
+.iconos-sociales li a .icono_social:hover{
+	color: #1E8CAD;
+}
+.iconos-sociales li{
+	padding: 0 12px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-size: 17px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #1E8CAD;
+}
+/* FIN MENU */
+
+/*INICIO SLIDER*/
+.carousel-indicators-1{
+	display: none;
+}
+.flecha-izquierda{
+	margin-top: 122%;
+  margin-left: 3%;
+  position: absolute;
+  .flecha_icon{
+  	    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 57px;
+    text-align: center;
+    padding: 16px;
+  }
+}
+
+.flecha-izquierda i:hover{
+	color: #1E8CAD;
+}
+
+.flecha-derecha i:hover{
+	color: #1E8CAD;
+}
+
+.flecha-derecha{
+	margin-top: 122%;
+  position: absolute;
+  margin-left: -56%;
+  .flecha_icon{
+  	    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 57px;
+    text-align: center;
+    padding: 16px;
+  }
+}
+/*FIN SLIDER*/
+
+/*INICIO DE NOSOTROS*/
+.titulo-nosotros{
+	padding: 2%;
+	font-family: "MONTSERRAT-BOLD";
+	color: gray;
+}
+.parrafo-nosotros{
+	font-family: "MONTSERRAT-REGULAR";
+	font-size: 16px;
+	margin: 0;
+}
+.grid-hacemos{
+	img{
+		width: 40%;
+	}
+}
+.titulo-hacemos{
+	font-size: 18px;
+	font-family: "MONTSERRAT-BOLD";
+}
+.parrafo-hacemos{
+	font-family: "MONTSERRAT-REGULAR";
+	color: gray;
+	font-size: 14px;
+    padding: 3% 0%;
+}
+/*FIN DE NOSOTROS*/
+
+/*INICIO DE PERSONAJE*/
+.personaje{
+	background-color: #3498db;
+}
+.foto-personaje{
+	margin-left: -27%;
+	img{
+		width: 100%;
+	}
+}
+.texto-personaje{
+	padding-top: 7%;
+}
+.frase-p{
+	padding: 2% 14%;
+  font-size: 39px;
+  font-family: "MONTSERRAT-BOLD";
+}
+.nombre-p{
+	font-family: "MONTSERRAT-REGULAR";
+}
+.cargo-p{
+	font-size: 26px;
+}
+.carousel-indicators{
+	margin-bottom: 36%;
+  position: absolute;
+  margin-left: -66%;
+}
+/*FIN DE PERSONAJE*/
+
+/*INICIO DE PORTAFOLIO*/
+.titulo-portafolio{
+	font-family: "MONTSERRAT-BOLD";
+	color: gray;
+}
+.parrafo-portafolio{
+	padding: 2% 28%;
+	font-family: "MONTSERRAT-REGULAR";
+	font-size: 16px;
+}
+.grid{
+	img{
+		width: 100%;
+	}
+}
+
+.box_hover{
+	background-color: rgba(84, 194, 218, 0.8);
+	width: 100%;
+	    position: absolute;
+    z-index: 500;
+    height: 100%;
+    display: none;
+}
+
+.grid:hover .box_hover{
+	display: block;
+}
+
+.box_hover_text{
+	margin-top: 360px;
+    margin-bottom: 360px;
+
+    h1{
+    	font-family: 'MONTSERRAT-BOLD';
+    }
+
+    h4{
+    	font-family: 'MONTSERRAT-REGULAR';
+    }
+}
+
+
+/*FIN DE PORTAFOLIO*/
+
+/*INICIO DE CONTACTO*/
+.titulo-contacto{
+	padding-bottom: 1%;
+	font-family: "MONTSERRAT-BOLD";
+	color: gray;
+}
+
+.texto-contacto{
+	margin-bottom: 70px;
+}
+
+.parrafo-contacto{
+	margin: 0;
+	font-family: "MONTSERRAT-REGULAR";
+	font-size: 16px;
+}
+.iconos-grid{
+}
+.icono{
+	img{
+		width: 100%;
+	}
+}
+.direccion{
+	padding: 0% 10%;
+	p{
+		margin: 0;
+		font-family: "MONTSERRAT-REGULAR";
+	}
+}
+div#formulario{
+	width: 90%;
+}
+input[type="text"]{
+	padding: 2%;
+  margin: 3% 0%;
+	border-bottom-style: groove;
+  border-top-style: initial;
+  border-width: thin;
+  border-left-style: outset;
+  border-right-style: inset;
+  font-family: "PTF56F";
+}
+input#mensaje{
+	height: 170px;
+	padding: 2%;
+  margin: 3% 0%;
+	border-bottom-style: groove;
+  border-top-style: initial;
+  border-width: thin;
+  border-left-style: outset;
+  border-right-style: inset;
+  font-family: "PTF56F";
+}
+input#nombre, input#mail{
+	width: 49%;
+}
+input#tema, input#mensaje{
+	width: 99%;
+}
+input[type="submit"]{
+  padding: 14px;
+  width: 30%;
+  background-color: #3498db;
+  color: white;
+  font-size: 20px;
+  float: right;
+  font-family: "MONTSERRAT-BOLD";
+  border: 0;
+}
+
+.container_contacto{
+	margin: 0 auto;
+}
+/*FIN DE CONTACTO*/
+
+/*-----------------------INICIO DE FOOTER */
+
+.footer_share{
+	background-color: rgb(28, 30, 32);
+	padding: 50px 70px;
+}
+
+#content_suscribete{
+	width: 85%;
+}
+
+#mail_2{
+	width: 64%;
+    background-color: #1c1e20;
+    border-right-style: none;
+    border-top-style: inset;
+    border-width: 2px;
+    border-left-color: white;
+    border-top-color: white;
+    padding: 15px;
+    font-family: "PTF56F";
+    color: #A4A4A4;
+}
+
+#suscribete{
+	    float: none;
+    margin: 0;
+    width: 30%;
+    display: inline-block;
+    margin-left: -4px;
+    border: 0px;
+    padding: 16px;
+    font-size: 15px;
+    font-family: "MONTSERRAT-BOLD";
+}
+
+.lista_menu_footer {
+	    width: 100%;
+    margin-top: 15px;
+}
+
+.lista_menu_footer  li{
+	list-style: none;
+	float: left;
+	padding: 0 1px;
+}
+
+.lista_menu_footer  li a{
+	color: white;
+	font-family: "MONTSERRAT-BOLD";
+	    font-size: 13px;
+    padding: 1px;
+    text-decoration: none;
+
+}
+
+.lista_menu_footer li a:hover{
+	color: #1E8CAD;
+}
+
+.img_footer_1{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.img_footer_2{
+	    width: 55%;
+}
+
+.lista_footer_sociales{
+	    padding-left: 50px;
+    border-left-style: outset;
+    border-left-color: white;
+    border-width: thin;
+    margin-top: 20px;
+}
+.lista_footer_sociales  li{
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+
+.lista_footer_sociales  li a i{
+	color: white;
+    border: 1px solid;
+	    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 32px;
+    text-align: center;
+   
+}
+
+.lista_footer_sociales li a i:hover{
+	color: #1E8CAD;
+}
+
+.text_sociales_footer{
+	font-family: "PTF56F";
+	    color: white;
+    margin-top: 25px;
+    font-size: 16px;
+}
+/*-----------------------FIN DE FOOTER */
+
+/*----------------------- INICIO RESPONSIVE */
+@media (max-width: $screen-phone){
+
+/*INICIO DE MENU*/
+
+.container_nav{
+	width: 100%;
+}
+	.logo-share{
+		img{
+		width: 100%;
+	  margin-left: -3%;
+	  margin-top: -7%;
+		}
+	}
+	li{
+		a{
+			font-size: 14px;
+		}
+	}
+/*FIN DE MENU*/
+
+/*INICIO NOSOTROS*/
+
+.flecha-izquierda{
+	display: none;
+}
+
+.flecha-derecha{
+	display: none;
+}
+
+	.titulo-nosotros{
+		font-size: 19px;
+	}
+	.parrafo-nosotros{
+		font-size: 15px;
+  	padding: 1% 15%;
+	}
+	.grid-hacemos{
+		img{
+			width: 20%;
+		}
+	}
+	.titulo-hacemos{
+		font-size: 12px;
+	}
+	.parrafo-hacemos{
+		font-size: 14px;
+  	padding: 3% 11%;
+	}
+/*FIN NOSOTROS*/
+
+/*INICIO PERSONAJE*/
+.texto-personaje{
+	padding-top: 2%;
+}
+.frase-p{
+	font-size: 19px;
+}
+.nombre-p{
+	font-size: 21px;
+}
+.cargo-p{
+	font-size: 13px;
+	margin: 0;
+}
+.foto-personaje{
+	margin-left: 20%;
+  padding-top: 4%;
+  img{
+  	width: 77%;
+  }
+}
+.carousel-indicators{
+	margin-bottom: 103%;
+  position: absolute;
+  margin-left: -31%;
+}
+/*FIN PERSONAJE*/
+
+/*INICIO PORTAFOLIO*/
+.titulo-portafolio{
+	font-size: 19px;
+}
+.parrafo-portafolio{
+	font-size: 15px;
+	padding: 2% 12%;
+}
+/*FIN PORTAFOLIO*/
+
+/*INICIO CONTACTO*/
+.titulo-contacto{
+	font-size: 19px;
+}
+.parrafo-contacto{
+	font-size: 15px;
+	padding: 0% 15%;
+}
+
+.icono{
+	img{
+		width: 60%;
+	}
+}
+
+.direccion{
+	padding: 0;
+}
+
+.mapa_share{
+	height: 350px;
+}
+
+#btn_enviar{
+	font-size: 14px;
+	padding: 10px;
+	margin-bottom: 18px;
+}
+
+.texto-contacto {
+    margin-bottom: 25px;
+}
+/*FIN CONTACTO*/
+
+/*INICIO DE FOOTER*/
+
+.footer_share{
+	padding: 20px 15px;
+}
+
+.text_suscribirse{
+	width: 100%;
+}
+
+#content_suscribete {
+    width: 100%;
+}
+
+#mail_2{
+	width: 68%;
+	padding: 12px;
+	font-size: 11px;
+
+}
+
+#suscribete{
+	width: 30%;
+	padding: 11px;
+	font-size: 14px;
+}
+
+.lista_menu_footer {
+    width: 100%;
+    margin-top: 2px;
+
+    li{
+    	    padding: 0 0px;
+
+    	    a{
+    	    	font-size: 9px;
+            padding: 1px;
+    	    }
+    }
+}
+
+.img_footer_1{
+	    margin: 10px;
+}
+
+.img_footer_2{
+	margin: 0px 25px;
+}
+
+.lista_footer_sociales{
+	margin: 20px -20px;
+	border-left-style: none;
+}
+
+.text_sociales_footer {   
+    margin-top: 8px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+}
+/* FIN DE FOOTER*/
+}
+/* FIN RESPONSIVE */
