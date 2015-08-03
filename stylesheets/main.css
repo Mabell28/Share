@@ -5673,23 +5673,29 @@ button.close {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 @font-face {
-  font-family: MONTSERRAT-BOLD;
-  src: url(../fuentes/MONTSERRAT-BOLD.ttf); }
+  font-family: 'montserratbold';
+  src: url("../fuentes/montserrat-bold-webfont.eot");
+  src: url("../fuentes/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fuentes/montserrat-bold-webfont.woff2") format("woff2"), url("../fuentes/montserrat-bold-webfont.woff") format("woff"), url("../fuentes/montserrat-bold-webfont.ttf") format("truetype"), url("../fuentes/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
-  font-family: MONTSERRAT-REGULAR;
-  src: url(../fuentes/MONTSERRAT-REGULAR.ttf); }
+  font-family: 'montserratregular';
+  src: url("../fuentes/montserrat-regular-webfont.eot");
+  src: url("../fuentes/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fuentes/montserrat-regular-webfont.woff2") format("woff2"), url("../fuentes/montserrat-regular-webfont.woff") format("woff"), url("../fuentes/montserrat-regular-webfont.ttf") format("truetype"), url("../fuentes/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
-  font-family: PTF55F;
-  src: url(../fuentes/PTF55F.ttf); }
+  font-family: 'pt_serifregular';
+  src: url("../fuentes/ptf55f-webfont.eot");
+  src: url("../fuentes/ptf55f-webfont.eot?#iefix") format("embedded-opentype"), url("../fuentes/ptf55f-webfont.woff2") format("woff2"), url("../fuentes/ptf55f-webfont.woff") format("woff"), url("../fuentes/ptf55f-webfont.ttf") format("truetype"), url("../fuentes/ptf55f-webfont.svg#pt_serifregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
-  font-family: PTF56F;
-  src: url(../fuentes/PTF56F.ttf); }
-@font-face {
-  font-family: PTF57F;
-  src: url(../fuentes/PTF75F.ttf); }
-@font-face {
-  font-family: PTF76F;
-  src: url(../fuentes/PTF76F.ttf); }
+  font-family: 'pt_serifitalic';
+  src: url("../fuentes/ptf56f-webfont.eot");
+  src: url("../fuentes/ptf56f-webfont.eot?#iefix") format("embedded-opentype"), url("../fuentes/ptf56f-webfont.woff2") format("woff2"), url("../fuentes/ptf56f-webfont.woff") format("woff"), url("../fuentes/ptf56f-webfont.ttf") format("truetype"), url("../fuentes/ptf56f-webfont.svg#pt_serifitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* INICIO MENU */
 .navbar {
   margin: 0;
@@ -5720,7 +5726,7 @@ button.close {
 
 li a {
   font-size: 19px;
-  font-family: "MONTSERRAT-BOLD"; }
+  font-family: 'montserratbold'; }
 
 .redes-sociales {
   width: 20%;
@@ -5803,11 +5809,11 @@ li a {
 /*INICIO DE NOSOTROS*/
 .titulo-nosotros {
   padding: 2%;
-  font-family: "MONTSERRAT-BOLD";
+  font-family: 'montserratbold';
   color: gray; }
 
 .parrafo-nosotros {
-  font-family: "MONTSERRAT-REGULAR";
+  font-family: 'montserratregular';
   font-size: 16px;
   margin: 0; }
 
@@ -5816,10 +5822,10 @@ li a {
 
 .titulo-hacemos {
   font-size: 18px;
-  font-family: "MONTSERRAT-BOLD"; }
+  font-family: 'montserratbold'; }
 
 .parrafo-hacemos {
-  font-family: "MONTSERRAT-REGULAR";
+  font-family: 'montserratregular';
   color: gray;
   font-size: 14px;
   padding: 3% 0%; }
@@ -5840,10 +5846,10 @@ li a {
 .frase-p {
   padding: 2% 14%;
   font-size: 39px;
-  font-family: "MONTSERRAT-BOLD"; }
+  font-family: 'montserratbold'; }
 
 .nombre-p {
-  font-family: "MONTSERRAT-REGULAR"; }
+  font-family: 'montserratregular'; }
 
 .cargo-p {
   font-size: 26px; }
@@ -5856,12 +5862,12 @@ li a {
 /*FIN DE PERSONAJE*/
 /*INICIO DE PORTAFOLIO*/
 .titulo-portafolio {
-  font-family: "MONTSERRAT-BOLD";
+  font-family: 'montserratbold';
   color: gray; }
 
 .parrafo-portafolio {
   padding: 2% 28%;
-  font-family: "MONTSERRAT-REGULAR";
+  font-family: 'montserratregular';
   font-size: 16px; }
 
 .grid img {
@@ -5886,18 +5892,18 @@ li a {
   margin-bottom: 360px;
   display: none; }
   .box_hover_text h1 {
-    font-family: 'MONTSERRAT-BOLD'; }
+    font-family: 'montserratbold'; }
   .box_hover_text h4 {
-    font-family: 'MONTSERRAT-REGULAR'; }
+    font-family: 'montserratregular'; }
 
 .box_hover_text_2 {
   margin-top: 170px;
   margin-bottom: 170px;
   display: none; }
   .box_hover_text_2 h1 {
-    font-family: 'MONTSERRAT-BOLD'; }
+    font-family: 'montserratregular'; }
   .box_hover_text_2 h4 {
-    font-family: 'MONTSERRAT-REGULAR'; }
+    font-family: 'montserratregular'; }
 
 .grid:hover .box_hover_text {
   display: block; }
@@ -5909,7 +5915,7 @@ li a {
 /*INICIO DE CONTACTO*/
 .titulo-contacto {
   padding-bottom: 1%;
-  font-family: "MONTSERRAT-BOLD";
+  font-family: 'montserratbold';
   color: gray; }
 
 .texto-contacto {
@@ -5917,7 +5923,7 @@ li a {
 
 .parrafo-contacto {
   margin: 0;
-  font-family: "MONTSERRAT-REGULAR";
+  font-family: 'montserratregular';
   font-size: 16px; }
 
 .icono img {
@@ -5927,7 +5933,7 @@ li a {
   padding: 0% 10%; }
   .direccion p {
     margin: 0;
-    font-family: "MONTSERRAT-REGULAR"; }
+    font-family: 'montserratregular'; }
 
 div#formulario {
   width: 90%; }
@@ -5940,7 +5946,7 @@ input[type="text"] {
   border-width: thin;
   border-left-style: outset;
   border-right-style: inset;
-  font-family: "PTF56F"; }
+  font-family: 'pt_serifitalic'; }
 
 input#mensaje {
   height: 170px;
@@ -5951,7 +5957,7 @@ input#mensaje {
   border-width: thin;
   border-left-style: outset;
   border-right-style: inset;
-  font-family: "PTF56F"; }
+  font-family: 'pt_serifitalic'; }
 
 input#nombre, input#mail {
   width: 49%; }
@@ -5966,7 +5972,7 @@ input[type="submit"] {
   color: white;
   font-size: 20px;
   float: right;
-  font-family: "MONTSERRAT-BOLD";
+  font-family: 'montserratbold';
   border: 0; }
 
 .container_contacto {
@@ -5990,7 +5996,7 @@ input[type="submit"] {
   border-left-color: white;
   border-top-color: white;
   padding: 15px;
-  font-family: "PTF56F";
+  font-family: 'pt_serifitalic';
   color: #A4A4A4; }
 
 #suscribete {
@@ -6002,7 +6008,7 @@ input[type="submit"] {
   border: 0px;
   padding: 16px;
   font-size: 15px;
-  font-family: "MONTSERRAT-BOLD"; }
+  font-family: 'montserratbold'; }
 
 .lista_menu_footer {
   width: 100%;
@@ -6015,7 +6021,7 @@ input[type="submit"] {
 
 .lista_menu_footer li a {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserratbold';
   font-size: 13px;
   padding: 1px;
   text-decoration: none; }
@@ -6055,7 +6061,7 @@ input[type="submit"] {
   color: #1E8CAD; }
 
 .text_sociales_footer {
-  font-family: "PTF56F";
+  font-family: 'pt_serifitalic';
   color: white;
   margin-top: 25px;
   font-size: 16px; }
