@@ -72,6 +72,13 @@ font-style: normal;
 	border-radius: 0%;
 	border-color: black;
 }
+
+.nav_fixed{
+	    z-index: 50000000000;
+    position: fixed;
+    width: 100%;
+}
+
 .container_nav, .navbar-default{
 	background-color: rgb(28, 30, 32);
 }
@@ -106,13 +113,13 @@ li{
 	}
 }
 .redes-sociales{
-	width: 20%;
-  margin: 0;
-  float: right;
-  margin: -77px 75px 0;
-  padding: 0% 2%;
-  border-left-style: groove;
-  border-width: thin;
+	    width: 20%;
+    float: right;
+    margin: -77px 99px 0px;
+    padding: 0% 2%;
+    border-left-style: groove;
+    border-width: thin;
+        border-left-color: white;
 }
 .iconos-sociales{
 	float: right;
@@ -156,6 +163,11 @@ li{
 /* FIN MENU */
 
 /*INICIO SLIDER*/
+
+.contenido-slider{
+	padding-top: 80px;
+}
+
 .carousel-indicators-1{
 	display: none;
 }
@@ -533,6 +545,10 @@ input[type="submit"]{
 
 /*INICIO NOSOTROS*/
 
+.contenido-slider {
+    padding-top: 50px;
+}
+
 .flecha-izquierda{
 	display: none;
 }
@@ -597,6 +613,12 @@ input[type="submit"]{
 .parrafo-portafolio{
 	font-size: 15px;
 	padding: 2% 12%;
+}
+
+.box_hover_text {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    display: none;
 }
 /*FIN PORTAFOLIO*/
 
