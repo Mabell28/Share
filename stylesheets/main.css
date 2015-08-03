@@ -6015,7 +6015,7 @@ input[type="submit"] {
 
 .lista_menu_footer li a {
   color: white;
-  font-family: "MONTSERRAT-BOLD";
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   padding: 1px;
   text-decoration: none; }

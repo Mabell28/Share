@@ -7,6 +7,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 		
 	</head>
@@ -469,20 +470,20 @@
 	    <script src="js/bootstrap/collapse.js"></script>
 	    <script src="js/bootstrap/transition.js"></script>
 	    <script> <!--INICIO:Baje soft-->
-		$(function() {
-			  $('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				  var target = $(this.hash);
-				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				  if (target.length) {
-					$('html,body').animate({
-					  scrollTop: target.offset().top
-					}, 1000);
-					return false;
-				  }
-				}
-			  });
-			});
+				$(function() {
+					  $('a[href*=#]:not([href=#])').click(function() {
+						if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						  var target = $(this.hash);
+						  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						  if (target.length) {
+							$('html,body').animate({
+							  scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						  }
+						}
+					  });
+					});
 	    </script><!--END:baje soft-->
 
 	</body>
